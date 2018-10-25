@@ -66,12 +66,12 @@
 
 
 	//Text
-	ctx.fillStyle = '#00F';
+	ctx.fillStyle = '#000';
 	ctx.font = 'Italic 30px Coursiva';
 
 	ctx.fillText('Mark', 50, 400);
 
-	ctx.font = 'Bold 30px Coursiva';
+	ctx.font = 'Italic 30px Coursiva';
 	ctx.strokeText('JavaScript!', 300, 50);
 
 
@@ -86,7 +86,7 @@
             img.src = "images/" + x.files[0].name;
 			img.onload = function(){
 				ctx.drawImage(img, 25, 300);
-				ctx.fillStyle = '#00F';
+				ctx.fillStyle = '#000';
 				ctx.font = 'Italic 30px Coursiva';
 				ctx.fillText('Mark', 50, 400);
       		}
